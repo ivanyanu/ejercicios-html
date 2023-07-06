@@ -17,7 +17,7 @@ p{/* centrado, bloque */
     font-size: 50pt;
     font-weight: bold;
     margin: 0;
-    padding: 40px 0 70px 0;
+    padding: 5px 0 70px 0;
 }
 .evento1{/*Montserrat black 148pt*/
     font-family: 'Montserrat', cursive;
@@ -44,5 +44,18 @@ p{/* centrado, bloque */
     font-size: 44pt;
     font-weight: 600;
     margin: 0;
-    padding: 40px;
+    padding: 40px 0 5px 0;
+}
+.franja-superior, .franja-inferior{
+    background-color: #0a2ff1;
+}
+.resaltado{
+    background-color: black;
+    color: white;
+}
+.franja-superior{
+    height: 60px;
+}
+.franja-inferior{
+    height: 100px;
 }
