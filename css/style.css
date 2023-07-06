@@ -1,0 +1,20 @@
+.contenedor{
+    width: 300px;
+    /* borde 1 px */
+    border: 1px solid black;
+}
+p{/* centrado, bloque */
+    text-align: center;
+    display: block;
+}
+.fecha1, .evento, .aviso{/*fondo negro, letras blancas*/
+    background-color: black;
+    color: white;
+}
+.fecha2, .descuento{/*fondo blanco, letras negras*/
+    background-color: white;
+    color: black;
+}
+.fecha1{/*Montserrat black 50pt*/
+    
+}
