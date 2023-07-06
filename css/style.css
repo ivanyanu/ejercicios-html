@@ -1,5 +1,5 @@
 .contenedor{
-    width: 300px;
+    width: 1300px;
     /* borde 1 px */
     border: 1px solid black;
 }
@@ -7,14 +7,41 @@ p{/* centrado, bloque */
     text-align: center;
     display: block;
 }
-.fecha1, .evento, .aviso{/*fondo negro, letras blancas*/
+.fecha, .evento2, .aviso{/*fondo negro, letras blancas*/
     background-color: black;
     color: white;
 }
-.fecha2, .descuento{/*fondo blanco, letras negras*/
+.evento1, .descuento{/*fondo blanco, letras negras*/
     background-color: white;
     color: black;
 }
-.fecha1{/*Montserrat black 50pt*/
-    
+.fecha{/*Montserrat black 50pt*/
+    font-family: 'Montserrat', cursive;
+    font-size: 50pt;
+    font-weight: bold;
+    margin: 0;
+}
+.evento1{/*Montserrat black 148pt*/
+    font-family: 'Montserrat', cursive;
+    font-size: 148pt;
+    font-weight: bold;
+    margin: 0;
+}
+.evento2{/*Montserrat black 163pt*/
+    font-family: 'Montserrat', cursive;
+    font-size: 163pt;
+    font-weight: bold;
+    margin: 0;
+}
+.descuento{/*Montserrat black 45pt*/
+    font-family: 'Montserrat', cursive;
+    font-size: 45pt;
+    font-weight: bold;
+    margin: 0;
+}
+.aviso{/*Montserrat black 44pt*/
+    font-family: 'Montserrat', cursive;
+    font-size: 44pt;
+    font-weight: bold;
+    margin: 0;
 }
