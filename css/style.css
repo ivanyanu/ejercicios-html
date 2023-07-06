@@ -1,19 +1,16 @@
 .contenedor{
     width: 1300px;
-    /* borde 1 px */
-    border: 1px solid black;
 }
 p{/* centrado, bloque */
     text-align: center;
     display: block;
 }
-.fecha, .evento2, .aviso{/*fondo negro, letras blancas*/
+.azul{/*color letras #0a2ff1*/
+    color: #0a2ff1;
+}
+.evento1{/*fondo negro, letras blancas*/
     background-color: black;
     color: white;
-}
-.evento1, .descuento{/*fondo blanco, letras negras*/
-    background-color: white;
-    color: black;
 }
 .fecha{/*Montserrat black 50pt*/
     font-family: 'Montserrat', cursive;
