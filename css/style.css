@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=MuseoModerno:wght@700&display=swap');
+div{/*fondo #edf7ff*/
+    background-color: #edf7ff;
+    width: 1700px;
+}
+.franja-superior{
+    display: block;
+    background-color: #8a9af1;
+    height: 50px;
+}
+h1{/*MuseoModerno bold 88pt */
+    font-family: 'MuseoModerno', cursive;
+    font-size: 88pt;
+    font-weight: bold;
+}
+h2{/*Asap regular 39pt */
+    font-family: 'Asap', sans-serif;
+    font-size: 39pt;
+    font-weight: regular;
+}
+h3{/*MuseoModerno bold 36pt */
+    font-family: 'MuseoModerno', cursive;
+    font-size: 36pt;
+    font-weight: bold;
+}
+h1, h2, h3 {/*font color #0a2ff1 */
+    color: #0a2ff1;
+}
+span{/*MuseoModerno bold 149pt #8a9af1*/
+    font-family: 'MuseoModerno', cursive;
+    font-size: 149pt;
+    font-weight: bold;
+    color: #8a9af1;
+}
+p{/*Asap regular & bold 25pt*/
+    font-family: 'Asap', sans-serif;
+    font-size: 25pt;
+    font-weight: regular;
+}
+em{/*bold no italic*/
+    font-weight: bold;
+    font-style: normal;
+}
+li{/*Asap bold 25pt*/
+    font-family: 'Asap', sans-serif;
+    font-size: 25pt;
+    font-weight: bold;
+}
+p, li{/*font color #04146c*/
+    color: #04146c;
+}
